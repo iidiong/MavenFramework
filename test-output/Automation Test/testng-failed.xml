@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test]">
+  <test name="Smoke Testcases">
+    <packages>
+      <package name="DataDriven"/>
+      <package name="TestNgFiles"/>
+      <package name="PageObjectTest"/>
+    </packages>
+    <classes>
+      <class name="DataDriven.Annotations"/>
+      <class name="DataDriven.DataInput"/>
+      <class name="DataDriven.ParameterizedTest1"/>
+      <class name="TestNgFiles.Annot2"/>
+      <class name="TestNgFiles.Annotations"/>
+      <class name="TestNgFiles.DependencyAnnot"/>
+      <class name="PageObjectTest.LoginTest"/>
+    </classes>
+  </test> <!-- Smoke Testcases -->
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="PageObjectTest.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PageObjectTest.LoginTest -->
+      <class name="DataDriven.ParameterizedTest1">
+        <methods>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- DataDriven.ParameterizedTest1 -->
+      <class name="DataDriven.Annotations">
+        <methods>
+          <include name="afterTest"/>
+          <include name="after"/>
+          <include name="cookies"/>
+          <include name="befor"/>
+        </methods>
+      </class> <!-- DataDriven.Annotations -->
+      <class name="TestNgFiles.Annotations">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- TestNgFiles.Annotations -->
+      <class name="TestNgFiles.Annot2">
+        <methods>
+          <include name="deinstallSoftware"/>
+          <include name="installSoftware"/>
+        </methods>
+      </class> <!-- TestNgFiles.Annot2 -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->

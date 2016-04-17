@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite 1">
+
+	<test name="test1">
+	
+		<parameter name="myName"  value="Idongesit" />
+		<parameter name="lastName"  value="Idiong" />
+		
+		<classes>
+			<class name="DataDriven.ParameterizedTest1" />
+		</classes>
+	</test>
+</suite>

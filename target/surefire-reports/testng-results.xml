@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test" duration-ms="12262" started-at="2016-03-26T16:53:27Z" finished-at="2016-03-26T16:53:39Z">
+    <groups>
+      <group name="Priority1">
+        <method signature="Annotations.openingBrowser()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="openingBrowser" class="DataDriven.Annotations"/>
+      </group> <!-- Priority1 -->
+    </groups>
+    <test name="Smoke Testcases" duration-ms="12262" started-at="2016-03-26T16:53:27Z" finished-at="2016-03-26T16:53:39Z">
+      <class name="TestNgFiles.Annot2">
+        <test-method status="PASS" signature="installSoftware()[pri:0, instance:TestNgFiles.Annot2@2ed94a8b]" name="installSoftware" is-config="true" duration-ms="6" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installSoftware -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="deinstallSoftware()[pri:0, instance:TestNgFiles.Annot2@2ed94a8b]" name="deinstallSoftware" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:40Z" finished-at="2016-03-26T12:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinstallSoftware -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-03-26T12:53:40Z" finished-at="2016-03-26T12:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNgFiles.Annot2 -->
+      <class name="DataDriven.ParameterizedTest1">
+        <test-method status="PASS" signature="parameterTest(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.ParameterizedTest1@2f7a2457]" name="parameterTest" duration-ms="1" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Idong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Idong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:DataDriven.ParameterizedTest1@2f7a2457]" name="flightBooking" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+      </class> <!-- DataDriven.ParameterizedTest1 -->
+      <class name="DataDriven.DataInput">
+        <test-method status="PASS" signature="userIdGeneration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDriven.DataInput@73f792cf]" name="userIdGeneration" duration-ms="0" started-at="2016-03-26T12:53:39Z" data-provider="getData" finished-at="2016-03-26T12:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xxxx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1aaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIdGeneration -->
+        <test-method status="PASS" signature="userIdGeneration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDriven.DataInput@73f792cf]" name="userIdGeneration" duration-ms="0" started-at="2016-03-26T12:53:39Z" data-provider="getData" finished-at="2016-03-26T12:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xxxx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1aaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIdGeneration -->
+        <test-method status="PASS" signature="userIdGeneration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDriven.DataInput@73f792cf]" name="userIdGeneration" duration-ms="0" started-at="2016-03-26T12:53:39Z" data-provider="getData" finished-at="2016-03-26T12:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xxxx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1aaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIdGeneration -->
+      </class> <!-- DataDriven.DataInput -->
+      <class name="TestNgFiles.Annotations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="cookies()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="cookies" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookies -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="testCase2" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="testCase1" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNgFiles.Annotations -->
+      <class name="PageObjectTest.LoginTest">
+        <test-method status="PASS" signature="LoginApp()[pri:0, instance:PageObjectTest.LoginTest@79698539]" name="LoginApp" duration-ms="6193" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@79698539]" name="tearDown" is-config="true" duration-ms="382" started-at="2016-03-26T12:53:33Z" finished-at="2016-03-26T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="userLoginApp()[pri:0, instance:PageObjectTest.LoginTest@79698539]" name="userLoginApp" duration-ms="5361" started-at="2016-03-26T12:53:34Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@79698539]" name="tearDown" is-config="true" duration-ms="308" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageObjectTest.LoginTest -->
+      <class name="TestNgFiles.DependencyAnnot">
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:TestNgFiles.DependencyAnnot@38082d64]" name="flightBooking" duration-ms="0" started-at="2016-03-26T12:53:39Z" depends-on-methods="TestNgFiles.DependencyAnnot.openingBrowser" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="openingBrowser()[pri:0, instance:TestNgFiles.DependencyAnnot@38082d64]" name="openingBrowser" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+      </class> <!-- TestNgFiles.DependencyAnnot -->
+      <class name="DataDriven.Annotations">
+        <test-method status="PASS" signature="befor()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="befor" is-config="true" duration-ms="1" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befor -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="closingBrowser" duration-ms="0" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method status="PASS" signature="after()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="after" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:27Z" finished-at="2016-03-26T12:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="befor()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="befor" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:34Z" finished-at="2016-03-26T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befor -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="flightBooking" duration-ms="0" started-at="2016-03-26T12:53:34Z" finished-at="2016-03-26T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="befor()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="befor" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:34Z" finished-at="2016-03-26T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befor -->
+        <test-method status="PASS" signature="openingBrowser()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="openingBrowser" duration-ms="0" started-at="2016-03-26T12:53:34Z" finished-at="2016-03-26T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+        <test-method status="PASS" signature="after()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="after" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:34Z" finished-at="2016-03-26T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="after" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:34Z" finished-at="2016-03-26T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:DataDriven.Annotations@6b2fad11]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNgFiles.Annotations@21bcffb5]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-03-26T12:53:39Z" finished-at="2016-03-26T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- DataDriven.Annotations -->
+    </test> <!-- Smoke Testcases -->
+  </suite> <!-- Automation Test -->
+</testng-results>
