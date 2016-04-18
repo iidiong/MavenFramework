@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18639" started-at="2016-04-06T18:22:59Z" finished-at="2016-04-06T18:23:18Z">
+  <suite name="Default suite" duration-ms="19800" started-at="2016-04-17T23:57:46Z" finished-at="2016-04-17T23:58:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18639" started-at="2016-04-06T18:22:59Z" finished-at="2016-04-06T18:23:18Z">
+    <test name="Default test" duration-ms="19800" started-at="2016-04-17T23:57:46Z" finished-at="2016-04-17T23:58:06Z">
       <class name="PageObjectTest.LoginTest">
-        <test-method status="PASS" signature="LoginApp()[pri:0, instance:PageObjectTest.LoginTest@6adca536]" name="LoginApp" duration-ms="6652" started-at="2016-04-06T14:22:59Z" finished-at="2016-04-06T14:23:06Z">
+        <test-method status="PASS" signature="LoginApp()[pri:0, instance:PageObjectTest.LoginTest@675d3402]" name="LoginApp" duration-ms="6507" started-at="2016-04-17T19:57:46Z" finished-at="2016-04-17T19:57:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@6adca536]" name="tearDown" is-config="true" duration-ms="417" started-at="2016-04-06T14:23:06Z" finished-at="2016-04-06T14:23:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@675d3402]" name="tearDown" is-config="true" duration-ms="433" started-at="2016-04-17T19:57:53Z" finished-at="2016-04-17T19:57:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="noPasswordLoginApp()[pri:0, instance:PageObjectTest.LoginTest@6adca536]" name="noPasswordLoginApp" duration-ms="5904" started-at="2016-04-06T14:23:06Z" finished-at="2016-04-06T14:23:12Z">
+        <test-method status="PASS" signature="bookFlight()[pri:0, instance:PageObjectTest.LoginTest@675d3402]" name="bookFlight" duration-ms="6815" started-at="2016-04-17T19:57:53Z" finished-at="2016-04-17T19:58:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- noPasswordLoginApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@6adca536]" name="tearDown" is-config="true" duration-ms="295" started-at="2016-04-06T14:23:12Z" finished-at="2016-04-06T14:23:12Z">
+        </test-method> <!-- bookFlight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@675d3402]" name="tearDown" is-config="true" duration-ms="361" started-at="2016-04-17T19:58:00Z" finished-at="2016-04-17T19:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="unsuccessfulLoginApp()[pri:0, instance:PageObjectTest.LoginTest@6adca536]" name="unsuccessfulLoginApp" duration-ms="5019" started-at="2016-04-06T14:23:12Z" finished-at="2016-04-06T14:23:17Z">
+        <test-method status="PASS" signature="unsuccessfulLoginApp()[pri:0, instance:PageObjectTest.LoginTest@675d3402]" name="unsuccessfulLoginApp" duration-ms="5318" started-at="2016-04-17T19:58:01Z" finished-at="2016-04-17T19:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unsuccessfulLoginApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@6adca536]" name="tearDown" is-config="true" duration-ms="338" started-at="2016-04-06T14:23:17Z" finished-at="2016-04-06T14:23:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageObjectTest.LoginTest@675d3402]" name="tearDown" is-config="true" duration-ms="349" started-at="2016-04-17T19:58:06Z" finished-at="2016-04-17T19:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
